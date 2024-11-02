@@ -24,6 +24,9 @@
 Clone the project from GitHub and navigate to the project folder:
 
 ```bash
+git clone https://github.com/your-username/note-o-pedia.git
+cd note-o-pedia
+
 ### 2\. Install Dependencies
 
 Use either `npm` or `yarn` to install the necessary dependencies:
