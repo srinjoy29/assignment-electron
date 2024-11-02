@@ -26,7 +26,7 @@ Clone the project from GitHub and navigate to the project folder:
 
 ```bash
 
-git clone https://github.com/your-username/note-o-pedia.git
+git clone https://github.com/srinjoy29/note-o-pedia.git
 
 cd note-o-pedia
 
