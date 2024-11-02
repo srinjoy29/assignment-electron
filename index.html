@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Note-O-Pedia</title>
+    <link rel="stylesheet" href="assets/styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header class="titlebar">
+            <h1>Note-O-Pedia</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html" class="active">Notes</a></li>
+                    
+                    <li><button class="close-btn">&#10005;</button></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <div class="note-list">
+                <ul> <!-- dynamically added here --></ul>
+            </div>
+            <div class="note-editor">
+                <textarea placeholder="Start typing your note..."></textarea>
+                <div class="controls">
+                    <button class="save-btn">Save</button>
+                    <button class="new-btn">New</button>
+                    <button class="delete-btn">Delete</button>
+                </div>
+            </div>
+            </main>
+            </div>
+            
+            <script src="assets/renderer.js"></script>
+            
+</body>
+</html>
